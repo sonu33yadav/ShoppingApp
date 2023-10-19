@@ -1,0 +1,6 @@
+2022-11-19 11:47:31 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], Campaign Id [91], Campaign Name [Template Campaign 2], Group Id [3], Group Name [DDD], Broadcast count [2], Template Id [2], Template Name [Second]
+2022-11-19 11:47:31 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], Campaign Id [91], Campaign Name [Template Campaign 2], Group Id [3], Group Name [DDD], Mobile [111111111], Message [Hi John , This is our second template which we will share with you over your  p@gmail.com . your mobile number is 111111111 .
+Your last name is Nawani .], SMS Sent
+2022-11-19 11:47:31 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], Campaign Id [91], Campaign Name [Template Campaign 2], Group Id [3], Group Name [DDD], Mobile [222222222], Message [Hi Honey , This is our second template which we will share with you over your  p2@gmail.com . your mobile number is 222222222 .
+Your last name is Nawani1 .], SMS Sent
+2022-11-19 11:47:31 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], Campaign Id [91], Ended

@@ -1,0 +1,958 @@
+2023-04-14 7:24:53 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+],Subject[Testing scheduled]
+2023-04-14 7:24:53 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:24:53 - INFO --> [mail], email [sk1533884@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:24:53 - INFO --> [mail], Mail Error [PHPMailer\PHPMailer\PHPMailer Object
+(
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => multipart/alternative
+    [Encoding] => 8bit
+    [ErrorInfo] => The following From address failed: delhishankarsingh@gmail.com : MAIL FROM command failed,Authentication required
+,530,SMTP server error: MAIL FROM command failed Detail: Authentication required
+ SMTP code: 530SMTP server error: MAIL FROM command failed Detail: Authentication required
+ SMTP code: 530
+    [From] => delhishankarsingh@gmail.com
+    [FromName] => 
+    [Sender] => delhishankarsingh@gmail.com
+    [Subject] => Testing scheduled
+    [Body] => <p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+    [AltBody] => Hi 
+
+This is scheduled test for attachement
+    [Ical] => 
+    [MIMEBody:protected] => --b1=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hi 
+
+This is scheduled test for attachement
+
+--b1=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI
+Content-Type: text/html; charset=us-ascii
+
+<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+
+--b1=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI--
+
+    [MIMEHeader:protected] => Date: Fri, 14 Apr 2023 07:24:53 +0000
+To: sk1533884@gmail.com
+From: delhishankarsingh@gmail.com
+Subject: Testing scheduled
+Message-ID: <MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI@ts-development-uk>
+X-Mailer: PHPMailer 6.7.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI"
+Content-Transfer-Encoding: 8bit
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => 
+    [Host] => smtp.elasticemail.com
+    [Port] => 2525
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => 
+    [Password] => 
+    [AuthType] => 
+    [oauth:protected] => 
+    [Timeout] => 300
+    [dsn] => 
+    [SMTPDebug] => 2
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray:protected] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_copyHeaderFields] => 1
+    [DKIM_extraHeaders] => Array
+        (
+        )
+
+    [DKIM_private] => 
+    [DKIM_private_string] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => PHPMailer\PHPMailer\SMTP Object
+        (
+            [do_debug] => 2
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_transaction_id_patterns:protected] => Array
+                (
+                    [exim] => /[\d]{3} OK id=(.*)/
+                    [sendmail] => /[\d]{3} 2.0.0 (.*) Message/
+                    [postfix] => /[\d]{3} 2.0.0 Ok: queued as (.*)/
+                    [Microsoft_ESMTP] => /[0-9]{3} 2.[\d].0 (.*)@(?:.*) Queued mail for delivery/
+                    [Amazon_SES] => /[\d]{3} Ok (.*)/
+                    [SendGrid] => /[\d]{3} Ok: queued as (.*)/
+                    [CampaignMonitor] => /[\d]{3} 2.0.0 OK:([a-zA-Z\d]{48})/
+                    [Haraka] => /[\d]{3} Message Queued \((.*)\)/
+                    [Mailjet] => /[\d]{3} OK queued as (.*)/
+                )
+
+            [last_smtp_transaction_id:protected] => 
+            [smtp_conn:protected] => Resource id #59
+            [error:protected] => Array
+                (
+                    [error] => MAIL FROM command failed
+                    [detail] => Authentication required
+
+                    [smtp_code] => 530
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 250-smtp.elasticemail.com
+250-PIPELINING
+250-SIZE 20971520
+250-8BITMIME
+250-AUTH=PLAIN LOGIN CRAM-MD5
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 OK
+
+            [server_caps:protected] => Array
+                (
+                    [EHLO] => smtp.elasticemail.com
+                    [PIPELINING] => 1
+                    [SIZE] => 20971520
+                    [8BITMIME] => 1
+                    [AUTH=PLAIN] => 1
+                    [AUTH] => Array
+                        (
+                            [0] => PLAIN
+                            [1] => LOGIN
+                            [2] => CRAM-MD5
+                        )
+
+                    [OK] => 1
+                )
+
+            [last_reply:protected] => 530 Authentication required
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => sk1533884@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [sk1533884@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI@ts-development-uk>
+    [message_type:protected] => alt
+    [boundary:protected] => Array
+        (
+            [1] => b1=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI
+            [2] => b2=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI
+            [3] => b3=_MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [buggy_php] => Your version of PHP is affected by a bug that may result in corrupted messages. To fix it, switch to sending using SMTP, disable the mail.add_x_header option in your php.ini, switch to MacOS or Linux, or upgrade your PHP to version 7.0.17+ or 7.1.3+.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [extension_missing] => Extension missing: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [invalid_header] => Invalid header name or value
+            [invalid_hostentry] => Invalid hostentry: 
+            [invalid_host] => Invalid host: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_code] => SMTP code: 
+            [smtp_code_ex] => Additional SMTP info: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_detail] => Detail: 
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+        )
+
+    [error_count:protected] => 2
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => MvTSCYUmUprnGQ2bKfbYpJnmYpVMV73a29jQzx0fmI
+)
+
+2023-04-14 7:24:53 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'sk1533884@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '3')
+2023-04-14 7:24:53 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:24:53 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:24:54 - INFO --> [mail], Mail Error [PHPMailer\PHPMailer\PHPMailer Object
+(
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => multipart/alternative
+    [Encoding] => 8bit
+    [ErrorInfo] => The following From address failed: delhishankarsingh@gmail.com : MAIL FROM command failed,Authentication required
+,530,SMTP server error: MAIL FROM command failed Detail: Authentication required
+ SMTP code: 530SMTP server error: MAIL FROM command failed Detail: Authentication required
+ SMTP code: 530
+    [From] => delhishankarsingh@gmail.com
+    [FromName] => 
+    [Sender] => delhishankarsingh@gmail.com
+    [Subject] => Testing scheduled
+    [Body] => <p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+    [AltBody] => Hi 
+
+This is scheduled test for attachement
+    [Ical] => 
+    [MIMEBody:protected] => --b1=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hi 
+
+This is scheduled test for attachement
+
+--b1=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw
+Content-Type: text/html; charset=us-ascii
+
+<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+
+--b1=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw--
+
+    [MIMEHeader:protected] => Date: Fri, 14 Apr 2023 07:24:54 +0000
+To: amanpreet.singhh2000@gmail.com
+From: delhishankarsingh@gmail.com
+Subject: Testing scheduled
+Message-ID: <jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw@ts-development-uk>
+X-Mailer: PHPMailer 6.7.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw"
+Content-Transfer-Encoding: 8bit
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => 
+    [Host] => smtp.elasticemail.com
+    [Port] => 2525
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => 
+    [Password] => 
+    [AuthType] => 
+    [oauth:protected] => 
+    [Timeout] => 300
+    [dsn] => 
+    [SMTPDebug] => 2
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray:protected] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_copyHeaderFields] => 1
+    [DKIM_extraHeaders] => Array
+        (
+        )
+
+    [DKIM_private] => 
+    [DKIM_private_string] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => PHPMailer\PHPMailer\SMTP Object
+        (
+            [do_debug] => 2
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_transaction_id_patterns:protected] => Array
+                (
+                    [exim] => /[\d]{3} OK id=(.*)/
+                    [sendmail] => /[\d]{3} 2.0.0 (.*) Message/
+                    [postfix] => /[\d]{3} 2.0.0 Ok: queued as (.*)/
+                    [Microsoft_ESMTP] => /[0-9]{3} 2.[\d].0 (.*)@(?:.*) Queued mail for delivery/
+                    [Amazon_SES] => /[\d]{3} Ok (.*)/
+                    [SendGrid] => /[\d]{3} Ok: queued as (.*)/
+                    [CampaignMonitor] => /[\d]{3} 2.0.0 OK:([a-zA-Z\d]{48})/
+                    [Haraka] => /[\d]{3} Message Queued \((.*)\)/
+                    [Mailjet] => /[\d]{3} OK queued as (.*)/
+                )
+
+            [last_smtp_transaction_id:protected] => 
+            [smtp_conn:protected] => Resource id #63
+            [error:protected] => Array
+                (
+                    [error] => MAIL FROM command failed
+                    [detail] => Authentication required
+
+                    [smtp_code] => 530
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 250-smtp.elasticemail.com
+250-PIPELINING
+250-SIZE 20971520
+250-8BITMIME
+250-AUTH=PLAIN LOGIN CRAM-MD5
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 OK
+
+            [server_caps:protected] => Array
+                (
+                    [EHLO] => smtp.elasticemail.com
+                    [PIPELINING] => 1
+                    [SIZE] => 20971520
+                    [8BITMIME] => 1
+                    [AUTH=PLAIN] => 1
+                    [AUTH] => Array
+                        (
+                            [0] => PLAIN
+                            [1] => LOGIN
+                            [2] => CRAM-MD5
+                        )
+
+                    [OK] => 1
+                )
+
+            [last_reply:protected] => 530 Authentication required
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => amanpreet.singhh2000@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [amanpreet.singhh2000@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw@ts-development-uk>
+    [message_type:protected] => alt
+    [boundary:protected] => Array
+        (
+            [1] => b1=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw
+            [2] => b2=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw
+            [3] => b3=_jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [buggy_php] => Your version of PHP is affected by a bug that may result in corrupted messages. To fix it, switch to sending using SMTP, disable the mail.add_x_header option in your php.ini, switch to MacOS or Linux, or upgrade your PHP to version 7.0.17+ or 7.1.3+.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [extension_missing] => Extension missing: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [invalid_header] => Invalid header name or value
+            [invalid_hostentry] => Invalid hostentry: 
+            [invalid_host] => Invalid host: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_code] => SMTP code: 
+            [smtp_code_ex] => Additional SMTP info: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_detail] => Detail: 
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+        )
+
+    [error_count:protected] => 2
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => jJqcKjnz2FVxGpRFWwTEr5TmqiIjmCCHUAqf3rU88uw
+)
+
+2023-04-14 7:24:54 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'amanpreet.singhh2000@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '3')
+2023-04-14 7:24:54 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:24:54 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:24:55 - INFO --> [mail], Mail Error [PHPMailer\PHPMailer\PHPMailer Object
+(
+    [Priority] => 
+    [CharSet] => iso-8859-1
+    [ContentType] => multipart/alternative
+    [Encoding] => 8bit
+    [ErrorInfo] => The following From address failed: delhishankarsingh@gmail.com : MAIL FROM command failed,Authentication required
+,530,SMTP server error: MAIL FROM command failed Detail: Authentication required
+ SMTP code: 530SMTP server error: MAIL FROM command failed Detail: Authentication required
+ SMTP code: 530
+    [From] => delhishankarsingh@gmail.com
+    [FromName] => 
+    [Sender] => delhishankarsingh@gmail.com
+    [Subject] => Testing scheduled
+    [Body] => <p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+    [AltBody] => Hi 
+
+This is scheduled test for attachement
+    [Ical] => 
+    [MIMEBody:protected] => --b1=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hi 
+
+This is scheduled test for attachement
+
+--b1=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8
+Content-Type: text/html; charset=us-ascii
+
+<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+
+--b1=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8--
+
+    [MIMEHeader:protected] => Date: Fri, 14 Apr 2023 07:24:55 +0000
+To: pallavnawani.nawani@gmail.com
+From: delhishankarsingh@gmail.com
+Subject: Testing scheduled
+Message-ID: <N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8@ts-development-uk>
+X-Mailer: PHPMailer 6.7.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8"
+Content-Transfer-Encoding: 8bit
+
+    [mailHeader:protected] => 
+    [WordWrap] => 0
+    [Mailer] => smtp
+    [Sendmail] => /usr/sbin/sendmail
+    [UseSendmailOptions] => 1
+    [ConfirmReadingTo] => 
+    [Hostname] => 
+    [MessageID] => 
+    [MessageDate] => 
+    [Host] => smtp.elasticemail.com
+    [Port] => 2525
+    [Helo] => 
+    [SMTPSecure] => 
+    [SMTPAutoTLS] => 1
+    [SMTPAuth] => 
+    [SMTPOptions] => Array
+        (
+        )
+
+    [Username] => 
+    [Password] => 
+    [AuthType] => 
+    [oauth:protected] => 
+    [Timeout] => 300
+    [dsn] => 
+    [SMTPDebug] => 2
+    [Debugoutput] => echo
+    [SMTPKeepAlive] => 
+    [SingleTo] => 
+    [SingleToArray:protected] => Array
+        (
+        )
+
+    [do_verp] => 
+    [AllowEmpty] => 
+    [DKIM_selector] => 
+    [DKIM_identity] => 
+    [DKIM_passphrase] => 
+    [DKIM_domain] => 
+    [DKIM_copyHeaderFields] => 1
+    [DKIM_extraHeaders] => Array
+        (
+        )
+
+    [DKIM_private] => 
+    [DKIM_private_string] => 
+    [action_function] => 
+    [XMailer] => 
+    [smtp:protected] => PHPMailer\PHPMailer\SMTP Object
+        (
+            [do_debug] => 2
+            [Debugoutput] => echo
+            [do_verp] => 
+            [Timeout] => 300
+            [Timelimit] => 300
+            [smtp_transaction_id_patterns:protected] => Array
+                (
+                    [exim] => /[\d]{3} OK id=(.*)/
+                    [sendmail] => /[\d]{3} 2.0.0 (.*) Message/
+                    [postfix] => /[\d]{3} 2.0.0 Ok: queued as (.*)/
+                    [Microsoft_ESMTP] => /[0-9]{3} 2.[\d].0 (.*)@(?:.*) Queued mail for delivery/
+                    [Amazon_SES] => /[\d]{3} Ok (.*)/
+                    [SendGrid] => /[\d]{3} Ok: queued as (.*)/
+                    [CampaignMonitor] => /[\d]{3} 2.0.0 OK:([a-zA-Z\d]{48})/
+                    [Haraka] => /[\d]{3} Message Queued \((.*)\)/
+                    [Mailjet] => /[\d]{3} OK queued as (.*)/
+                )
+
+            [last_smtp_transaction_id:protected] => 
+            [smtp_conn:protected] => Resource id #67
+            [error:protected] => Array
+                (
+                    [error] => MAIL FROM command failed
+                    [detail] => Authentication required
+
+                    [smtp_code] => 530
+                    [smtp_code_ex] => 
+                )
+
+            [helo_rply:protected] => 250-smtp.elasticemail.com
+250-PIPELINING
+250-SIZE 20971520
+250-8BITMIME
+250-AUTH=PLAIN LOGIN CRAM-MD5
+250-AUTH PLAIN LOGIN CRAM-MD5
+250 OK
+
+            [server_caps:protected] => Array
+                (
+                    [EHLO] => smtp.elasticemail.com
+                    [PIPELINING] => 1
+                    [SIZE] => 20971520
+                    [8BITMIME] => 1
+                    [AUTH=PLAIN] => 1
+                    [AUTH] => Array
+                        (
+                            [0] => PLAIN
+                            [1] => LOGIN
+                            [2] => CRAM-MD5
+                        )
+
+                    [OK] => 1
+                )
+
+            [last_reply:protected] => 530 Authentication required
+
+        )
+
+    [to:protected] => Array
+        (
+            [0] => Array
+                (
+                    [0] => pallavnawani.nawani@gmail.com
+                    [1] => 
+                )
+
+        )
+
+    [cc:protected] => Array
+        (
+        )
+
+    [bcc:protected] => Array
+        (
+        )
+
+    [ReplyTo:protected] => Array
+        (
+        )
+
+    [all_recipients:protected] => Array
+        (
+            [pallavnawani.nawani@gmail.com] => 1
+        )
+
+    [RecipientsQueue:protected] => Array
+        (
+        )
+
+    [ReplyToQueue:protected] => Array
+        (
+        )
+
+    [attachment:protected] => Array
+        (
+        )
+
+    [CustomHeader:protected] => Array
+        (
+        )
+
+    [lastMessageID:protected] => <N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8@ts-development-uk>
+    [message_type:protected] => alt
+    [boundary:protected] => Array
+        (
+            [1] => b1=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8
+            [2] => b2=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8
+            [3] => b3=_N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8
+        )
+
+    [language:protected] => Array
+        (
+            [authenticate] => SMTP Error: Could not authenticate.
+            [buggy_php] => Your version of PHP is affected by a bug that may result in corrupted messages. To fix it, switch to sending using SMTP, disable the mail.add_x_header option in your php.ini, switch to MacOS or Linux, or upgrade your PHP to version 7.0.17+ or 7.1.3+.
+            [connect_host] => SMTP Error: Could not connect to SMTP host.
+            [data_not_accepted] => SMTP Error: data not accepted.
+            [empty_message] => Message body empty
+            [encoding] => Unknown encoding: 
+            [execute] => Could not execute: 
+            [extension_missing] => Extension missing: 
+            [file_access] => Could not access file: 
+            [file_open] => File Error: Could not open file: 
+            [from_failed] => The following From address failed: 
+            [instantiate] => Could not instantiate mail function.
+            [invalid_address] => Invalid address: 
+            [invalid_header] => Invalid header name or value
+            [invalid_hostentry] => Invalid hostentry: 
+            [invalid_host] => Invalid host: 
+            [mailer_not_supported] =>  mailer is not supported.
+            [provide_address] => You must provide at least one recipient email address.
+            [recipients_failed] => SMTP Error: The following recipients failed: 
+            [signing] => Signing Error: 
+            [smtp_code] => SMTP code: 
+            [smtp_code_ex] => Additional SMTP info: 
+            [smtp_connect_failed] => SMTP connect() failed.
+            [smtp_detail] => Detail: 
+            [smtp_error] => SMTP server error: 
+            [variable_set] => Cannot set or reset variable: 
+        )
+
+    [error_count:protected] => 2
+    [sign_cert_file:protected] => 
+    [sign_key_file:protected] => 
+    [sign_extracerts_file:protected] => 
+    [sign_key_pass:protected] => 
+    [exceptions:protected] => 
+    [uniqueid:protected] => N7J77bxLV9GHZu5mPdarJxJrcnWjSln8qLcc7CdQ8
+)
+
+2023-04-14 7:24:55 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'pallavnawani.nawani@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '3')
+2023-04-14 7:27:45 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+],Subject[Testing scheduled]
+2023-04-14 7:27:45 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:27:45 - INFO --> [mail], email [sk1533884@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:27:48 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'sk1533884@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:27:48 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:27:48 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:27:50 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'amanpreet.singhh2000@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:27:51 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:27:51 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:27:53 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'pallavnawani.nawani@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:30:42 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+],Subject[Testing scheduled]
+2023-04-14 7:30:42 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:30:42 - INFO --> [mail], email [sk1533884@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:30:45 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'sk1533884@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:30:45 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:30:45 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:30:47 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'amanpreet.singhh2000@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:30:47 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:30:47 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:30:50 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'pallavnawani.nawani@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:32:07 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+],Subject[Testing scheduled]
+2023-04-14 7:32:07 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:32:07 - INFO --> [mail], email [sk1533884@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:32:10 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'sk1533884@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:32:10 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:32:10 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:32:12 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'amanpreet.singhh2000@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:32:12 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:32:12 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:32:15 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'pallavnawani.nawani@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:33:58 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+],Subject[Testing scheduled]
+2023-04-14 7:33:58 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:33:58 - INFO --> [mail], email [sk1533884@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:34:00 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'sk1533884@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:34:00 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:34:00 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:34:03 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'amanpreet.singhh2000@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:34:03 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:34:03 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Testing scheduled,<p>Hi&nbsp;</p>
+<p></p>
+<p>This is scheduled test for attachement</p>
+
+2023-04-14 7:34:06 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '66','admin@oyo.com', 'pallavnawani.nawani@gmail.com','Testing scheduled','<p>Hi&nbsp;</p>\r\n<p></p>\r\n<p>This is scheduled test for attachement</p>\r\n',  now(), now(), '2')
+2023-04-14 7:37:19 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi</p>
+],Subject[Test111]
+2023-04-14 7:37:19 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:37:19 - INFO --> [mail], email [sk1533884@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:37:21 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'sk1533884@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:37:21 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:37:21 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:37:24 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'amanpreet.singhh2000@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:37:24 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:37:24 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:37:26 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'pallavnawani.nawani@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:41:52 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi</p>
+],Subject[Test111]
+2023-04-14 7:41:52 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:41:52 - INFO --> [mail], email [sk1533884@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:41:54 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'sk1533884@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:41:54 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:41:54 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:41:55 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'amanpreet.singhh2000@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:41:55 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:41:55 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:41:56 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'pallavnawani.nawani@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:50:47 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi</p>
+],Subject[Test111]
+2023-04-14 7:50:47 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:50:47 - INFO --> [mail], email [sk1533884@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:50:48 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'sk1533884@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:50:48 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:50:48 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:50:49 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'amanpreet.singhh2000@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:50:49 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:50:49 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:50:51 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'pallavnawani.nawani@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:54:37 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi</p>
+],Subject[Test111]
+2023-04-14 7:54:37 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:54:37 - INFO --> [mail], email [sk1533884@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:54:38 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'sk1533884@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:54:38 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:54:38 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:54:39 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'amanpreet.singhh2000@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:54:39 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:54:39 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:54:41 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'pallavnawani.nawani@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:54:57 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi</p>
+],Subject[Test111]
+2023-04-14 7:54:57 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 7:54:57 - INFO --> [mail], email [sk1533884@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:54:58 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'sk1533884@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:54:58 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 7:54:58 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:55:00 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'amanpreet.singhh2000@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 7:55:00 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 7:55:00 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Test111,<p>Hi</p>
+
+2023-04-14 7:55:01 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '67','support@lkart.com', 'pallavnawani.nawani@gmail.com','Test111','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 9:25:48 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [72], Campaign Name [Hello_2023-04-14_09:25:08], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>221</p>
+],Subject[Hi]
+2023-04-14 9:25:48 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [72], Campaign Name [Hello_2023-04-14_09:25:08], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 9:25:48 - INFO --> [mail], email [sk1533884@gmail.com], Hi,<p>221</p>
+
+2023-04-14 9:25:49 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '72','support@lkart.com', 'sk1533884@gmail.com','Hi','<p>221</p>\r\n',  now(), now(), '2')
+2023-04-14 9:25:49 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [72], Campaign Name [Hello_2023-04-14_09:25:08], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 9:25:49 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], Hi,<p>221</p>
+
+2023-04-14 9:25:50 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '72','support@lkart.com', 'amanpreet.singhh2000@gmail.com','Hi','<p>221</p>\r\n',  now(), now(), '2')
+2023-04-14 9:25:50 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [72], Campaign Name [Hello_2023-04-14_09:25:08], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 9:25:50 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], Hi,<p>221</p>
+
+2023-04-14 9:25:51 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '72','support@lkart.com', 'pallavnawani.nawani@gmail.com','Hi','<p>221</p>\r\n',  now(), now(), '2')
+2023-04-14 9:35:02 - INFO --> [EMail CAMPAIGN], [NORMAL], User Id [11], Campaign Id [73], Campaign Name [Hi_2023-04-14_09:33:35], Group Id [115], Group Name [NEW CONTACT], Broadcast count [3], Message [<p>Hi</p>
+],Subject[hi]
+2023-04-14 9:35:02 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [73], Campaign Name [Hi_2023-04-14_09:33:35], Group Id [115], Group Name [NEW CONTACT], Email [sk1533884@gmail.com], Email Sent
+2023-04-14 9:35:02 - INFO --> [mail], email [sk1533884@gmail.com], hi,<p>Hi</p>
+
+2023-04-14 9:35:04 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '73','admin@oyo.com', 'sk1533884@gmail.com','hi','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 9:35:04 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [73], Campaign Name [Hi_2023-04-14_09:33:35], Group Id [115], Group Name [NEW CONTACT], Email [amanpreet.singhh2000@gmail.com], Email Sent
+2023-04-14 9:35:04 - INFO --> [mail], email [amanpreet.singhh2000@gmail.com], hi,<p>Hi</p>
+
+2023-04-14 9:35:05 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '73','admin@oyo.com', 'amanpreet.singhh2000@gmail.com','hi','<p>Hi</p>\r\n',  now(), now(), '2')
+2023-04-14 9:35:05 - INFO --> [Email CAMPAIGN], [NORMAL], User Id [11], Campaign Id [73], Campaign Name [Hi_2023-04-14_09:33:35], Group Id [115], Group Name [NEW CONTACT], Email [pallavnawani.nawani@gmail.com], Email Sent
+2023-04-14 9:35:05 - INFO --> [mail], email [pallavnawani.nawani@gmail.com], hi,<p>Hi</p>
+
+2023-04-14 9:35:06 - INFO --> insert into combine_email_reports (user_id, campaign_id, email_sender_id,email,subject, content, created_at, updated_at, status) values('11', '73','admin@oyo.com', 'pallavnawani.nawani@gmail.com','hi','<p>Hi</p>\r\n',  now(), now(), '2')

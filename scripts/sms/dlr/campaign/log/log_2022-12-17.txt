@@ -1,0 +1,33 @@
+2022-12-17 18:03:32 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 148
+    [type] => 8
+    [receiver] => 266000059
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-12-17 18:03:33 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 148
+    [type] => 4
+    [receiver] => 266000059
+    [reply] => id:1147135685 sub:000 dlvrd:000 submit date:2212171803 done date:2212171803 stat:ENROUTE err:603 Text:
+    [message] => id:1147135685 sub:000 dlvrd:000 submit date:2212171803 done date:2212171803 stat:ENROUTE err:603 Text:
+)
+
+2022-12-17 18:03:34 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 148
+    [type] => 2
+    [receiver] => 266000059
+    [reply] => id:1147135685 sub:000 dlvrd:000 submit date:2212171803 done date:2212171803 stat:UNDELIV err:1304 Text:
+    [message] => id:1147135685 sub:000 dlvrd:000 submit date:2212171803 done date:2212171803 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-17 18:03:34 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='266000059' and campaign_id='148' limit 1
+2022-12-17 18:03:34 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='266000059' and campaign_id='148' limit 1
+2022-12-17 18:03:34 - INFO --> User Id [22], Campaign Id [148], Type [2], Msisdn [266000059], Sms Not Delivered

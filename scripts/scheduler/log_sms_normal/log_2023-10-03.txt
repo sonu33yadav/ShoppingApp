@@ -1,0 +1,7 @@
+2023-10-03 9:57:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [165]
+2023-10-03 9:57:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [165], Campaign Name [Scheduler_2023-10-03_09:55:29], Group Id [9], Group Name [ONE], Broadcast count [2], Message [sdhfkjshfksjhf]
+2023-10-03 9:57:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [165], Campaign Name [Scheduler_2023-10-03_09:55:29], Group Id [9], Group Name [ONE], Mobile [260111111111], SMS Sent
+2023-10-03 9:57:32 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8249511988172118944","Success","20231003-115732"]}], MESSAGEID  [8249511988172118944] STATUS [Success] SMS Sent
+2023-10-03 9:57:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [165], Campaign Name [Scheduler_2023-10-03_09:55:29], Group Id [9], Group Name [ONE], Mobile [260222222222], SMS Sent
+2023-10-03 9:57:34 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8249512137784883443","Success","20231003-115734"]}], MESSAGEID  [8249512137784883443] STATUS [Success] SMS Sent
+2023-10-03 9:57:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [165], Ended

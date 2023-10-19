@@ -1,0 +1,146 @@
+<html>
+	<head>
+		<title></title>		
+	</head>
+
+	<style>
+		*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+	</style>
+	<body style="background-color:white ; padding:0px 15px; ">	
+	  <div style="margin-top:18px; " >
+		<table	 style="width:100%;"> 
+			<tbody>
+				<tr>
+					<td style="width:50%;">
+						<img src="http://127.0.0.1/logo.png" alt="" width="120"  style="margin-top:-35px ;" />
+					</td>
+					<td style="width:50%; "> 
+						<p style="text-align:right; font-size:11px; margin-top: 20px;">
+							txtconnect <br> 10th Swaniker Street <br>Abelemkpe <br/> <a href="mailto:info@txtghana.com">info@txtghana.com</a> <br/>
+							0302-797680 <br/> P.O Box CO1967, Tema <br/> Ghana 
+						</p>
+					</td>
+					
+				</tr>
+				
+			</tbody>  
+		</table>
+		
+		<h2 style="font-size:14px"><b>Invoice </b> </h2>
+		<table style=" width: 100%; border-collapse: collapse; font-size:10px " border="0">
+			<tbody>
+				<tr> 
+					<td>
+						<p style="text-align:left">
+							Invoice #: {{invoiceNo}} <br>
+							Invoice Date: {{invoiceDate}}  <br>
+							Paid Date: {{paidDate}} <br>
+							Payment Method: <span style="text-transform: capitalize;">{{paymentMethod}}</span> 
+						</p>
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+						
+					</td>
+					<td>
+					</td>
+					<td>
+						
+						
+						<p style="text-align:right;margin-right:auto">
+							<b>Bill to:</b><br>
+							{{userDetails.name}} <br>
+							{{userDetails.address}} <br>
+							{{userDetails.city}}<br> {{userDetails.statename}}<br>
+							{{userDetails.country}} <br>
+							
+						</p>
+					</td>
+				</tr>
+				<tr style="height:20px; width:100%"></tr>
+				
+
+				<tr style="width: 100%; height:40px; border-collapse: collapse; background-color: #e42f17; padding-left: 50px;">
+					<td style="text-align: Left; ">
+						<span style="color: #ffffff; padding-left:10px;"><b>Plan Name</b></span>
+					</td>
+					<td style="text-align: right; ">
+						<span style="color: #ffffff"><b>Quantity</b></span>
+					</td>
+					<td style="text-align: right; ">
+						<span style="color: #ffffff"><b>Price per qty</b></span>
+					</td>
+					<td style="text-align: right; ">
+						<span style="color: #ffffff"><b>Tax</b></span>
+					</td>
+					<td style="text-align: right; ">
+						<span style="color: #ffffff"><b>Discount</b></span>
+					</td>
+					
+					<td style="text-align: right; ">
+						<span style="color: #ffffff; padding-right:10px;""><b>Total</b></span>
+					</td>
+				</tr>
+
+				{{#each planDetails}}
+				<tr style=" border-bottom: 1px solid #ddd;"> 
+					<td style="text-align: left; padding-left:10px;">
+						{{this.planName}} {{this.pack}}
+					</td>
+					<td style="text-align: right;">
+						{{this.qty}}
+					</td>
+					<td style="text-align: right;">
+						{{this.pricePerQty}}
+					</td>
+					<td style="text-align: right;">
+						{{this.tax}}
+					</td>
+
+					<td style="text-align: right;">
+						{{this.discount}}
+					</td>
+
+					<td style="text-align: right;  padding-right:10px; padding:6px 0px">
+						{{this.total}} GHc
+					</td>
+				</tr>
+				{{/each}}
+
+				<tr style="width:100%; height:12px;"></tr>		
+		
+
+				<tr> 
+					<td style="text-align: left; padding-left:10px; ">
+						
+					</td>
+					<td style="text-align: left; padding-left:10px; ">
+						
+					</td>
+					<td style="text-align: left; padding-left:10px; ">
+						
+					</td>
+					<td style="text-align: left; padding-left:10px; ">
+						
+					</td>
+					<td style="text-align: left; border-top: 1px solid black;   ">
+						<b  style="font-size:14px">Total:</b> 
+					</td>
+					<td style="text-align: right;  padding-right:10px; padding:6px 0px; border-top: 1px solid black;  ">
+					<b style="font-size:14px">{{totalPrice}} GHc</b>
+					</td>
+					
+				</tr>
+
+			</tbody>  
+		</table>
+					
+		
+	</div>
+</body>
+</html>				

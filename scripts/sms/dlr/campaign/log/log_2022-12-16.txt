@@ -1,0 +1,78 @@
+2022-12-16 11:10:13 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 210
+    [type] => 8
+    [receiver] => 233222222222
+    [reply] => ACK/
+    [time] => 2022-12-16 11:10:13
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-16 11:10:14 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 210
+    [type] => 4
+    [receiver] => 233222222222
+    [reply] => id:0368207937 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-16 11:10:13
+    [usr] => txtgh_url
+    [message] => id:0368207937 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:ENROUTE err:603 Text:
+)
+
+2022-12-16 11:10:14 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 210
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-12-16 11:10:14
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-16 11:10:15 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 210
+    [type] => 2
+    [receiver] => 233222222222
+    [reply] => id:0368207937 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-16 11:10:14
+    [usr] => txtgh_url
+    [message] => id:0368207937 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-16 11:10:15 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='210' limit 1
+2022-12-16 11:10:15 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='210' limit 1
+2022-12-16 11:10:15 - INFO --> User Id [54], Campaign Id [210], Type [2], Msisdn [233222222222], Sms Not Delivered
+2022-12-16 11:10:15 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 210
+    [type] => 4
+    [receiver] => 233111111111
+    [reply] => id:0368207949 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-16 11:10:15
+    [usr] => txtgh_url
+    [message] => id:0368207949 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:ENROUTE err:603 Text:
+)
+
+2022-12-16 11:10:17 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 210
+    [type] => 2
+    [receiver] => 233111111111
+    [reply] => id:0368207949 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-16 11:10:16
+    [usr] => txtgh_url
+    [message] => id:0368207949 sub:000 dlvrd:000 submit date:2212161110 done date:2212161110 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-16 11:10:17 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='210' limit 1
+2022-12-16 11:10:17 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='210' limit 1
+2022-12-16 11:10:17 - INFO --> User Id [54], Campaign Id [210], Type [2], Msisdn [233111111111], Sms Not Delivered

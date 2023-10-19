@@ -1,0 +1,26 @@
+2022-12-16 12:47:12 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [quickSMSId] => 64
+    [messageId] => 202212161247111164167119483167610176
+    [type] => 8
+    [receiver] => 233578965213
+    [reply] => ACK/
+    [time] => 2022-12-16 12:47:11
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-16 12:47:12 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [quickSMSId] => 64
+    [messageId] => 202212161247111164167119483167610176
+    [type] => 4
+    [receiver] => 233578965213
+    [reply] => id:1205545878 sub:000 dlvrd:000 submit date:2212161247 done date:2212161247 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-16 12:47:12
+    [usr] => txtgh_url
+    [message] => id:1205545878 sub:000 dlvrd:000 submit date:2212161247 done date:2212161247 stat:ENROUTE err:603 Text:
+)
+

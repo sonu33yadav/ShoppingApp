@@ -1,0 +1,363 @@
+2023-09-22 6:50:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [128]
+2023-09-22 6:50:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [128], Campaign Name [Schedule Test_2023-09-22_06:44:51], Group Id [9], Group Name [ONE], Broadcast count [2], Message [Schedule Test, Schedule Test, Schedule Test,Schedule Test,Schedule Test]
+2023-09-22 6:50:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [128], Campaign Name [Schedule Test_2023-09-22_06:44:51], Group Id [9], Group Name [ONE], Mobile [260111111111], SMS Sent
+2023-09-22 6:50:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 6:50:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1296', 'sales', 'connect', '128', '9', '1', 'ONE', '', '260111111111', 'Schedule Test, Schedule Test, Schedule Test,Schedule Test,Schedule Test','2', NOW(), NOW())
+2023-09-22 6:50:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [128], Campaign Name [Schedule Test_2023-09-22_06:44:51], Group Id [9], Group Name [ONE], Mobile [260222222222], SMS Sent
+2023-09-22 6:50:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 6:50:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1296', 'support', 'connect', '128', '9', '1', 'ONE', '', '260222222222', 'Schedule Test, Schedule Test, Schedule Test,Schedule Test,Schedule Test','2', NOW(), NOW())
+2023-09-22 6:50:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [128], Ended
+2023-09-22 7:10:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [129]
+2023-09-22 7:10:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [129], Campaign Name [deleteTest_2023-09-22_07:08:55], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [deleteTest]
+2023-09-22 7:10:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [129], Campaign Name [deleteTest_2023-09-22_07:08:55], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 7:10:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 7:10:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '129', '12', '1', 'NATORISEND', '', '260111111111', 'deleteTest','2', NOW(), NOW())
+2023-09-22 7:10:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [129], Campaign Name [deleteTest_2023-09-22_07:08:55], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 7:10:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 7:10:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '129', '12', '1', 'NATORISEND', '', '260111111111', 'deleteTest','2', NOW(), NOW())
+2023-09-22 7:10:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [129], Ended
+2023-09-22 7:17:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [130]
+2023-09-22 7:17:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [130], Campaign Name [7:16_2023-09-22_07:15:34], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [7:16]
+2023-09-22 7:17:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [130], Campaign Name [7:16_2023-09-22_07:15:34], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 7:17:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 7:17:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '130', '12', '1', 'NATORISEND', '', '260111111111', '7:16','2', NOW(), NOW())
+2023-09-22 7:17:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [130], Campaign Name [7:16_2023-09-22_07:15:34], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 7:17:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 7:17:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '130', '12', '1', 'NATORISEND', '', '260111111111', '7:16','2', NOW(), NOW())
+2023-09-22 7:17:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [130], Ended
+2023-09-22 7:39:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [131]
+2023-09-22 7:39:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [131], Campaign Name [CAMPTODAY_2023-09-22_07:38:01], Group Id [9], Group Name [ONE], Broadcast count [2], Message [totaltotaltotaltotaltotaltotaltotaltotal]
+2023-09-22 7:39:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [131], Campaign Name [CAMPTODAY_2023-09-22_07:38:01], Group Id [9], Group Name [ONE], Mobile [260111111111], SMS Sent
+2023-09-22 7:39:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 7:39:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1296', 'sales', 'connect', '131', '9', '1', 'SONU', '', '260111111111', 'totaltotaltotaltotaltotaltotaltotaltotal','2', NOW(), NOW())
+2023-09-22 7:39:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [131], Campaign Name [CAMPTODAY_2023-09-22_07:38:01], Group Id [9], Group Name [ONE], Mobile [260222222222], SMS Sent
+2023-09-22 7:39:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 7:39:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1296', 'support', 'connect', '131', '9', '1', 'SONU', '', '260222222222', 'totaltotaltotaltotaltotaltotaltotaltotal','2', NOW(), NOW())
+2023-09-22 7:39:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [131], Ended
+2023-09-22 8:45:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [135]
+2023-09-22 8:45:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [135], Campaign Name [balance_2023-09-22_08:43:23], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [balance]
+2023-09-22 8:45:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [135], Campaign Name [balance_2023-09-22_08:43:23], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:45:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:45:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '135', '12', '1', 'NATORISEND', '', '260111111111', 'balance','2', NOW(), NOW())
+2023-09-22 8:45:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [135], Campaign Name [balance_2023-09-22_08:43:23], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:45:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:45:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '135', '12', '1', 'NATORISEND', '', '260111111111', 'balance','2', NOW(), NOW())
+2023-09-22 8:45:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [135], Ended
+2023-09-22 8:49:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [136]
+2023-09-22 8:49:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [136], Campaign Name [balancetset_2023-09-22_08:47:07], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [balance test]
+2023-09-22 8:49:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [136], Campaign Name [balancetset_2023-09-22_08:47:07], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:49:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:49:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '136', '12', '1', 'NATORISEND', '', '260111111111', 'balance test','2', NOW(), NOW())
+2023-09-22 8:49:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [136], Campaign Name [balancetset_2023-09-22_08:47:07], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:49:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:49:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '136', '12', '1', 'NATORISEND', '', '260111111111', 'balance test','2', NOW(), NOW())
+2023-09-22 8:49:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [136], Ended
+2023-09-22 8:50:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [137]
+2023-09-22 8:50:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [137], Campaign Name [schulebalance_2023-09-22_08:48:54], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletime]
+2023-09-22 8:50:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [137], Campaign Name [schulebalance_2023-09-22_08:48:54], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:50:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:50:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '137', '12', '1', 'NATORISEND', '', '260111111111', 'scheduletime','2', NOW(), NOW())
+2023-09-22 8:50:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [137], Campaign Name [schulebalance_2023-09-22_08:48:54], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:50:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:50:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '137', '12', '1', 'NATORISEND', '', '260111111111', 'scheduletime','2', NOW(), NOW())
+2023-09-22 8:50:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [137], Ended
+2023-09-22 8:54:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 8:54:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 8:54:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:54:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:54:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 8:55:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 8:55:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 8:55:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:55:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:55:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 8:56:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 8:56:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 8:56:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:56:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:56:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 8:57:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 8:57:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 8:57:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:57:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:57:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 8:58:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 8:58:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 8:58:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:58:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:58:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 8:59:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 8:59:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 8:59:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 8:59:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 8:59:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:00:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:00:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:00:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:00:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:00:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:01:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:01:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:01:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:01:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:01:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:02:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:02:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:02:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:02:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:02:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:03:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:03:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:03:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:03:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:03:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:04:32 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:04:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:04:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:04:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:04:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:05:32 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:05:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:05:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:05:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:05:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:06:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:06:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:06:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:06:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:06:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:07:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140]
+2023-09-22 9:07:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [scheduletimet]
+2023-09-22 9:07:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:07:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:07:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:07:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [140], Campaign Name [schedulebalancet_2023-09-22_08:52:28], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:07:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:07:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '140', '12', '1', 'SENDERIDNAT', '', '260111111111', 'scheduletimet','2', NOW(), NOW())
+2023-09-22 9:07:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [140], Ended
+2023-09-22 9:10:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [143]
+2023-09-22 9:10:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [143], Campaign Name [normalbalance_2023-09-22_09:08:06], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal balance]
+2023-09-22 9:10:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [143], Campaign Name [normalbalance_2023-09-22_09:08:06], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:10:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:10:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '143', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normal balance','2', NOW(), NOW())
+2023-09-22 9:10:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [143], Campaign Name [normalbalance_2023-09-22_09:08:06], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:10:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:10:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '143', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normal balance','2', NOW(), NOW())
+2023-09-22 9:10:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [143], Ended
+2023-09-22 9:31:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [146]
+2023-09-22 9:31:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [146], Campaign Name [ninethirty_2023-09-22_09:30:44], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [ok]
+2023-09-22 9:31:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [146], Campaign Name [ninethirty_2023-09-22_09:30:44], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:31:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:31:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '146', '12', '1', 'NATORISEND', '', '260111111111', 'ok','2', NOW(), NOW())
+2023-09-22 9:31:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [146], Campaign Name [ninethirty_2023-09-22_09:30:44], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:31:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:31:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '146', '12', '1', 'NATORISEND', '', '260111111111', 'ok','2', NOW(), NOW())
+2023-09-22 9:31:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [146], Ended
+2023-09-22 9:37:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [147]
+2023-09-22 9:37:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [147], Campaign Name [lastnormalsche_2023-09-22_09:35:23], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [lastnormalsche]
+2023-09-22 9:37:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [147], Campaign Name [lastnormalsche_2023-09-22_09:35:23], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:37:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:37:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '147', '12', '1', 'SENDERIDNAT', '', '260111111111', 'lastnormalsche','2', NOW(), NOW())
+2023-09-22 9:37:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [147], Campaign Name [lastnormalsche_2023-09-22_09:35:23], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:37:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:37:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '147', '12', '1', 'SENDERIDNAT', '', '260111111111', 'lastnormalsche','2', NOW(), NOW())
+2023-09-22 9:37:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [147], Ended
+2023-09-22 9:42:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [149]
+2023-09-22 9:42:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [149], Campaign Name [afterbuildnormal_2023-09-22_09:42:25], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [afterbuildnormal]
+2023-09-22 9:42:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [149], Campaign Name [afterbuildnormal_2023-09-22_09:42:25], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:42:32 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:42:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '149', '12', '1', 'NATORISEND', '', '260111111111', 'afterbuildnormal','2', NOW(), NOW())
+2023-09-22 9:42:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [149], Campaign Name [afterbuildnormal_2023-09-22_09:42:25], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 9:42:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:42:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '149', '12', '1', 'NATORISEND', '', '260111111111', 'afterbuildnormal','2', NOW(), NOW())
+2023-09-22 9:42:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [149], Ended
+2023-09-22 9:52:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [150]
+2023-09-22 9:52:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [150], Campaign Name [real_2023-09-22_09:52:16], Group Id [11], Group Name [NATORIGROUP], Broadcast count [1], Message [kidda bai ]
+2023-09-22 9:52:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [150], Campaign Name [real_2023-09-22_09:52:16], Group Id [11], Group Name [NATORIGROUP], Mobile [260272747529], SMS Sent
+2023-09-22 9:52:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 9:52:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'Paygo', 'connect', '150', '11', '1', 'NATORISEND', '', '260272747529', 'kidda bai ','2', NOW(), NOW())
+2023-09-22 9:52:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [150], Ended
+2023-09-22 10:04:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [153]
+2023-09-22 10:04:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [153], Campaign Name [Schedule Again test_2023-09-22_10:00:48], Group Id [9], Group Name [ONE], Broadcast count [2], Message [Schedule Again test Schedule Again test Schedule Again test Schedule Again testv Schedule Again test]
+2023-09-22 10:04:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [153], Campaign Name [Schedule Again test_2023-09-22_10:00:48], Group Id [9], Group Name [ONE], Mobile [260111111111], SMS Sent
+2023-09-22 10:04:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 10:04:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1296', 'sales', 'connect', '153', '9', '1', 'SONU', '', '260111111111', 'Schedule Again test Schedule Again test Schedule Again test Schedule Again testv Schedule Again test','2', NOW(), NOW())
+2023-09-22 10:04:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1296], Campaign Id [153], Campaign Name [Schedule Again test_2023-09-22_10:00:48], Group Id [9], Group Name [ONE], Mobile [260222222222], SMS Sent
+2023-09-22 10:04:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 10:04:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1296', 'support', 'connect', '153', '9', '1', 'SONU', '', '260222222222', 'Schedule Again test Schedule Again test Schedule Again test Schedule Again testv Schedule Again test','2', NOW(), NOW())
+2023-09-22 10:04:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [153], Ended
+2023-09-22 10:15:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [154]
+2023-09-22 10:15:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [154], Campaign Name [bhi_2023-09-22_10:13:52], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [bhi]
+2023-09-22 10:15:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [154], Campaign Name [bhi_2023-09-22_10:13:52], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:15:33 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 10:15:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '154', '12', '1', 'NATORISEND', '', '260111111111', 'bhi','2', NOW(), NOW())
+2023-09-22 10:15:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [154], Campaign Name [bhi_2023-09-22_10:13:52], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:15:34 - INFO --> [CUSTOM SMS CAMPAIGN], [CUSTOM], SMSRESPONSE  Status[Success], MessageId [response":["+OK] SMS Sent
+2023-09-22 10:15:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '154', '12', '1', 'NATORISEND', '', '260111111111', 'bhi','2', NOW(), NOW())
+2023-09-22 10:15:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [154], Ended
+2023-09-22 10:32:32 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 10:32:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 10:32:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:32:33 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [Array] SMS Sent
+2023-09-22 10:32:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 10:32:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:32:34 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [Array] SMS Sent
+2023-09-22 10:32:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 10:32:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156], Ended
+2023-09-22 10:35:20 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 10:35:20 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 10:35:20 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:35:22 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248464008348519740","Success","20230922-123521"]}] SMS Sent
+2023-09-22 10:35:22 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 10:35:22 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:35:23 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248463893262504725","Success","20230922-123523"]}] SMS Sent
+2023-09-22 10:35:23 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 10:35:23 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156], Ended
+2023-09-22 10:57:30 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 10:57:30 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 10:57:30 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:57:32 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248465338353803085","Success","20230922-125731"]}] SMS Sent
+2023-09-22 10:57:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 10:58:12 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 10:58:12 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 10:58:12 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:58:13 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248465379611047421","Success","20230922-125813"]}] SMS Sent
+2023-09-22 10:58:13 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 10:59:19 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 10:59:19 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 10:59:19 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 10:59:20 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248465446757732201","Success","20230922-125920"]}] SMS Sent
+2023-09-22 10:59:20 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:01:28 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 11:01:28 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 11:01:28 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:01:29 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565576281697589","Success","20230922-130129"]}], MESSAGEID  [response":["+OK] SMS Sent
+2023-09-22 11:01:29 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:02:22 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 11:02:22 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 11:02:22 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:02:24 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565630325554568","Success","20230922-130223"]}], MESSAGEID  [8248565630325554568] STATUS [Success] SMS Sent
+2023-09-22 11:02:24 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:03:29 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 11:03:29 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 11:03:29 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:03:30 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565696818345575","Success","20230922-130330"]}], MESSAGEID  [8248565696818345575] STATUS [Success] SMS Sent
+2023-09-22 11:03:30 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:03:30 - INFO --> UPDATE campaigns_report set message_id=8248565696818345575 where campaign_id= and msisdn=260111111111
+2023-09-22 11:04:14 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 11:04:14 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 11:04:14 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:04:16 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565742307074556","Success","20230922-130415"]}], MESSAGEID  [8248565742307074556] STATUS [Success] SMS Sent
+2023-09-22 11:04:16 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:04:16 - INFO --> UPDATE campaigns_report set message_id=8248565742307074556 where campaign_id= and msisdn=260111111111
+2023-09-22 11:04:58 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 11:04:58 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 11:04:58 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:05:00 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565786589649524","Success","20230922-130500"]}], MESSAGEID  [8248565786589649524] STATUS [Success] SMS Sent
+2023-09-22 11:05:00 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:05:00 - INFO --> UPDATE campaigns_report set message_id=8248565786589649524 where campaign_id= and msisdn=260111111111
+2023-09-22 11:05:29 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156]
+2023-09-22 11:05:29 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalurl]
+2023-09-22 11:05:29 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:05:31 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565701355963973","Success","20230922-130531"]}], MESSAGEID  [8248565701355963973] STATUS [Success] SMS Sent
+2023-09-22 11:05:31 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:05:31 - INFO --> UPDATE campaigns_report set message_id=8248565701355963973 where campaign_id=156 and msisdn=260111111111
+2023-09-22 11:05:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [156], Campaign Name [normalurl_2023-09-22_10:30:45], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:05:32 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248565818910456347","Success","20230922-130532"]}], MESSAGEID  [8248565818910456347] STATUS [Success] SMS Sent
+2023-09-22 11:05:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '156', '12', '1', 'SENDERIDNAT', '', '260111111111', 'normalurl','2', NOW(), NOW())
+2023-09-22 11:05:32 - INFO --> UPDATE campaigns_report set message_id=8248565818910456347 where campaign_id=156 and msisdn=260111111111
+2023-09-22 11:05:32 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [156], Ended
+2023-09-22 11:14:32 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157]
+2023-09-22 11:14:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal schedule]
+2023-09-22 11:14:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:14:33 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566244017448135","Success","20230922-131433"]}], MESSAGEID  [8248566244017448135] STATUS [Success] SMS Sent
+2023-09-22 11:14:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:14:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:14:34 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566361286021136","Success","20230922-131434"]}], MESSAGEID  [8248566361286021136] STATUS [Success] SMS Sent
+2023-09-22 11:14:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:14:35 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157], Ended
+2023-09-22 11:15:46 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157]
+2023-09-22 11:15:46 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal schedule]
+2023-09-22 11:15:46 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:15:47 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566433647278992","Success","20230922-131547"]}], MESSAGEID  [8248566433647278992] STATUS [Success] SMS Sent
+2023-09-22 11:15:47 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:15:47 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:15:48 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566318582556584","Success","20230922-131548"]}], MESSAGEID  [8248566318582556584] STATUS [Success] SMS Sent
+2023-09-22 11:15:48 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:15:48 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157], Ended
+2023-09-22 11:15:52 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157]
+2023-09-22 11:15:52 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal schedule]
+2023-09-22 11:15:52 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:15:53 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566439891561466","Success","20230922-131553"]}], MESSAGEID  [8248566439891561466] STATUS [Success] SMS Sent
+2023-09-22 11:15:53 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:15:53 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:15:55 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566325170161898","Success","20230922-131554"]}], MESSAGEID  [8248566325170161898] STATUS [Success] SMS Sent
+2023-09-22 11:15:55 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:15:55 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157], Ended
+2023-09-22 11:16:37 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157]
+2023-09-22 11:16:37 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal schedule]
+2023-09-22 11:16:37 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:16:38 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566484780557596","Success","20230922-131638"]}], MESSAGEID  [8248566484780557596] STATUS [Success] SMS Sent
+2023-09-22 11:16:38 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:16:38 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:16:39 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566369738845037","Success","20230922-131639"]}], MESSAGEID  [8248566369738845037] STATUS [Success] SMS Sent
+2023-09-22 11:16:39 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:16:39 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157], Ended
+2023-09-22 11:17:12 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157]
+2023-09-22 11:17:12 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal schedule]
+2023-09-22 11:17:12 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:17:13 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566519455435096","Success","20230922-131713"]}], MESSAGEID  [8248566519455435096] STATUS [Success] SMS Sent
+2023-09-22 11:17:13 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:17:13 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:17:14 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566404465756343","Success","20230922-131714"]}], MESSAGEID  [8248566404465756343] STATUS [Success] SMS Sent
+2023-09-22 11:17:14 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:17:14 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157], Ended
+2023-09-22 11:17:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157]
+2023-09-22 11:17:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normal schedule]
+2023-09-22 11:17:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:17:35 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566541475068094","Success","20230922-131735"]}], MESSAGEID  [8248566541475068094] STATUS [Success] SMS Sent
+2023-09-22 11:17:35 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:17:35 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [157], Campaign Name [NewScheduleN_2023-09-22_11:12:51], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:17:36 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248566542854858892","Success","20230922-131736"]}], MESSAGEID  [8248566542854858892] STATUS [Success] SMS Sent
+2023-09-22 11:17:36 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '157', '12', '1', 'NATORISEND', '', '260111111111', 'normal schedule','2', NOW(), NOW())
+2023-09-22 11:17:36 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [157], Ended
+2023-09-22 11:58:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [158]
+2023-09-22 11:58:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [158], Campaign Name [normalschedule_2023-09-22_11:56:41], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalschedule]
+2023-09-22 11:58:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [158], Campaign Name [normalschedule_2023-09-22_11:56:41], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:58:32 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248568998743207838","Success","20230922-135832"]}], MESSAGEID  [8248568998743207838] STATUS [Success] SMS Sent
+2023-09-22 11:58:32 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '158', '12', '1', 'NATORISEND', '', '260111111111', 'normalschedule','2', NOW(), NOW())
+2023-09-22 11:58:32 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [158], Campaign Name [normalschedule_2023-09-22_11:56:41], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 11:58:33 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248568883791191968","Success","20230922-135833"]}], MESSAGEID  [8248568883791191968] STATUS [Success] SMS Sent
+2023-09-22 11:58:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '158', '12', '1', 'NATORISEND', '', '260111111111', 'normalschedule','2', NOW(), NOW())
+2023-09-22 11:58:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [158], Ended
+2023-09-22 12:04:54 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [158]
+2023-09-22 12:04:54 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [158], Campaign Name [normalschedule_2023-09-22_11:56:41], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [normalschedule]
+2023-09-22 12:04:54 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [158], Campaign Name [normalschedule_2023-09-22_11:56:41], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 12:04:56 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248669382477774626","Success","20230922-140456"]}], MESSAGEID  [8248669382477774626] STATUS [Success] SMS Sent
+2023-09-22 12:04:56 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '158', '12', '1', 'NATORISEND', '', '260111111111', 'normalschedule','2', NOW(), NOW())
+2023-09-22 12:04:56 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [158], Campaign Name [normalschedule_2023-09-22_11:56:41], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 12:04:57 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248669267673314764","Success","20230922-140457"]}], MESSAGEID  [8248669267673314764] STATUS [Success] SMS Sent
+2023-09-22 12:04:57 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '158', '12', '1', 'NATORISEND', '', '260111111111', 'normalschedule','2', NOW(), NOW())
+2023-09-22 12:04:57 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [158], Ended
+2023-09-22 12:08:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [159]
+2023-09-22 12:08:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [159], Campaign Name [schedulemsgid_2023-09-22_12:06:13], Group Id [11], Group Name [NATORIGROUP], Broadcast count [1], Message [normalschedulemsgid]
+2023-09-22 12:08:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [159], Campaign Name [schedulemsgid_2023-09-22_12:06:13], Group Id [11], Group Name [NATORIGROUP], Mobile [260272747529], SMS Sent
+2023-09-22 12:08:33 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248669599587861742","Success","20230922-140833"]}], MESSAGEID  [8248669599587861742] STATUS [Success] SMS Sent
+2023-09-22 12:08:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'Paygo', 'connect', '159', '11', '1', 'NATORISEND', '', '260272747529', 'normalschedulemsgid','2', NOW(), NOW())
+2023-09-22 12:08:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [159], Ended
+2023-09-22 12:21:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [161]
+2023-09-22 12:21:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [161], Campaign Name [finalnormalmsg_2023-09-22_12:20:33], Group Id [12], Group Name [GROUP], Broadcast count [2], Message [finalnormalid]
+2023-09-22 12:21:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [161], Campaign Name [finalnormalmsg_2023-09-22_12:20:33], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 12:21:33 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248670379592727859","Success","20230922-142133"]}], MESSAGEID  [8248670379592727859] STATUS [Success] SMS Sent
+2023-09-22 12:21:33 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'sales', 'connect', '161', '12', '1', 'NATORISEND', '', '260111111111', 'finalnormalid','2', NOW(), NOW())
+2023-09-22 12:21:33 - INFO --> UPDATE campaigns_report set message_id=8248670379592727859 where campaign_id=161 and msisdn=260111111111
+2023-09-22 12:21:33 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [161], Campaign Name [finalnormalmsg_2023-09-22_12:20:33], Group Id [12], Group Name [GROUP], Mobile [260111111111], SMS Sent
+2023-09-22 12:21:34 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248670264755699021","Success","20230922-142134"]}], MESSAGEID  [8248670264755699021] STATUS [Success] SMS Sent
+2023-09-22 12:21:34 - INFO --> INSERT INTO campaigns_report(user_id, first_name, last_name, campaign_id, contact_group, type, sender_id, template, msisdn, content,status, created_at, updated_at)VALUES('1301', 'support', 'connect', '161', '12', '1', 'NATORISEND', '', '260111111111', 'finalnormalid','2', NOW(), NOW())
+2023-09-22 12:21:34 - INFO --> UPDATE campaigns_report set message_id=8248670264755699021 where campaign_id=161 and msisdn=260111111111
+2023-09-22 12:21:34 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [161], Ended
+2023-09-22 12:45:31 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [163]
+2023-09-22 12:45:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [163], Campaign Name [normalschedule_2023-09-22_12:43:28], Group Id [11], Group Name [NATORIGROUP], Broadcast count [1], Message [normalschedule]
+2023-09-22 12:45:31 - INFO --> [SMS CAMPAIGN], [NORMAL], User Id [1301], Campaign Id [163], Campaign Name [normalschedule_2023-09-22_12:43:28], Group Id [11], Group Name [NATORIGROUP], Mobile [260272747529], SMS Sent
+2023-09-22 12:45:33 - INFO --> [CUSTOM SMS CAMPAIGN], [NORMAL], SMSRESPONSE  [{"message":"SMS sent successfully","response":["+OK","8248671819532335117","Success","20230922-144533"]}], MESSAGEID  [8248671819532335117] STATUS [Success] SMS Sent
+2023-09-22 12:45:33 - INFO --> [SMS CAMPAIGN], [NORMAL], Campaign Id [163], Ended

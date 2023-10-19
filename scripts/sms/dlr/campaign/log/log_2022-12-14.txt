@@ -1,0 +1,726 @@
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233145265478
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233145235478
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233123456781
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233456789123
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233521456321
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233434342425
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233434342423
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233145785412
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:51 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233321452365
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233145214521
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233145265478
+    [reply] => id:0382694576 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:51
+    [usr] => txtgh_url
+    [message] => id:0382694576 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233145235478
+    [reply] => id:0382694577 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:52
+    [usr] => txtgh_url
+    [message] => id:0382694577 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:53 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233123456781
+    [reply] => id:0382694578 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:52
+    [usr] => txtgh_url
+    [message] => id:0382694578 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:53 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233456789123
+    [reply] => id:0382694579 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:53
+    [usr] => txtgh_url
+    [message] => id:0382694579 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:54 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233521456321
+    [reply] => id:0382694580 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:53
+    [usr] => txtgh_url
+    [message] => id:0382694580 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:54 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233434342425
+    [reply] => id:0382694581 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:54
+    [usr] => txtgh_url
+    [message] => id:0382694581 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:55 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233434342423
+    [reply] => id:0382694582 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:54
+    [usr] => txtgh_url
+    [message] => id:0382694582 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:55 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233145785412
+    [reply] => id:0382694584 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:55
+    [usr] => txtgh_url
+    [message] => id:0382694584 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233321452365
+    [reply] => id:0382694585 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:55
+    [usr] => txtgh_url
+    [message] => id:0382694585 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233145214521
+    [reply] => id:0382694586 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => id:0382694586 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233145232145
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233434342420
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233333322221
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 8
+    [receiver] => 233222222222
+    [reply] => ACK/
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:43:57 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233145265478
+    [reply] => id:0382694576 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:43:56
+    [usr] => txtgh_url
+    [message] => id:0382694576 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:43:57 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233145265478' and campaign_id='201' limit 1
+2022-12-14 5:43:57 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233145265478' and campaign_id='201' limit 1
+2022-12-14 5:43:57 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233145265478], Sms Not Delivered
+2022-12-14 5:43:57 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233145232145
+    [reply] => id:0382694598 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:57
+    [usr] => txtgh_url
+    [message] => id:0382694598 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:58 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233434342420
+    [reply] => id:0382694599 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:57
+    [usr] => txtgh_url
+    [message] => id:0382694599 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:58 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233333322221
+    [reply] => id:0382694600 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:58
+    [usr] => txtgh_url
+    [message] => id:0382694600 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:59 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233111111111
+    [reply] => id:0382694601 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:58
+    [usr] => txtgh_url
+    [message] => id:0382694601 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:43:59 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 4
+    [receiver] => 233222222222
+    [reply] => id:0382694602 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:43:59
+    [usr] => txtgh_url
+    [message] => id:0382694602 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:44:00 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233145235478
+    [reply] => id:0382694577 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:00
+    [usr] => txtgh_url
+    [message] => id:0382694577 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:00 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233145235478' and campaign_id='201' limit 1
+2022-12-14 5:44:00 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233145235478' and campaign_id='201' limit 1
+2022-12-14 5:44:00 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233145235478], Sms Not Delivered
+2022-12-14 5:44:01 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233123456781
+    [reply] => id:0382694578 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:00
+    [usr] => txtgh_url
+    [message] => id:0382694578 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:01 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233123456781' and campaign_id='201' limit 1
+2022-12-14 5:44:01 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233123456781' and campaign_id='201' limit 1
+2022-12-14 5:44:01 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233123456781], Sms Not Delivered
+2022-12-14 5:44:01 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233456789123
+    [reply] => id:0382694579 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:01
+    [usr] => txtgh_url
+    [message] => id:0382694579 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:01 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233456789123' and campaign_id='201' limit 1
+2022-12-14 5:44:01 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233456789123' and campaign_id='201' limit 1
+2022-12-14 5:44:01 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233456789123], Sms Not Delivered
+2022-12-14 5:44:02 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233521456321
+    [reply] => id:0382694580 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:01
+    [usr] => txtgh_url
+    [message] => id:0382694580 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:02 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233521456321' and campaign_id='201' limit 1
+2022-12-14 5:44:02 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233521456321' and campaign_id='201' limit 1
+2022-12-14 5:44:02 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233521456321], Sms Not Delivered
+2022-12-14 5:44:03 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233434342423
+    [reply] => id:0382694582 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:02
+    [usr] => txtgh_url
+    [message] => id:0382694582 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:03 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233434342423' and campaign_id='201' limit 1
+2022-12-14 5:44:03 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233434342423' and campaign_id='201' limit 1
+2022-12-14 5:44:03 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233434342423], Sms Not Delivered
+2022-12-14 5:44:03 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233145785412
+    [reply] => id:0382694584 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:03
+    [usr] => txtgh_url
+    [message] => id:0382694584 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:03 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233145785412' and campaign_id='201' limit 1
+2022-12-14 5:44:03 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233145785412' and campaign_id='201' limit 1
+2022-12-14 5:44:03 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233145785412], Sms Not Delivered
+2022-12-14 5:44:04 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233321452365
+    [reply] => id:0382694585 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:03
+    [usr] => txtgh_url
+    [message] => id:0382694585 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:04 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233321452365' and campaign_id='201' limit 1
+2022-12-14 5:44:04 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233321452365' and campaign_id='201' limit 1
+2022-12-14 5:44:04 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233321452365], Sms Not Delivered
+2022-12-14 5:44:04 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233145214521
+    [reply] => id:0382694586 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:04
+    [usr] => txtgh_url
+    [message] => id:0382694586 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:04 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233145214521' and campaign_id='201' limit 1
+2022-12-14 5:44:04 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233145214521' and campaign_id='201' limit 1
+2022-12-14 5:44:04 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233145214521], Sms Not Delivered
+2022-12-14 5:44:05 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233434342420
+    [reply] => id:0382694599 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:05
+    [usr] => txtgh_url
+    [message] => id:0382694599 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:05 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233434342420' and campaign_id='201' limit 1
+2022-12-14 5:44:05 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233434342420' and campaign_id='201' limit 1
+2022-12-14 5:44:05 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233434342420], Sms Not Delivered
+2022-12-14 5:44:06 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233145232145
+    [reply] => id:0382694598 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:05
+    [usr] => txtgh_url
+    [message] => id:0382694598 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:06 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233145232145' and campaign_id='201' limit 1
+2022-12-14 5:44:06 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233145232145' and campaign_id='201' limit 1
+2022-12-14 5:44:06 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233145232145], Sms Not Delivered
+2022-12-14 5:44:06 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233111111111
+    [reply] => id:0382694601 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:06
+    [usr] => txtgh_url
+    [message] => id:0382694601 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:06 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='201' limit 1
+2022-12-14 5:44:06 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='201' limit 1
+2022-12-14 5:44:06 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233111111111], Sms Not Delivered
+2022-12-14 5:44:07 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233222222222
+    [reply] => id:0382694602 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:44:06
+    [usr] => txtgh_url
+    [message] => id:0382694602 sub:000 dlvrd:000 submit date:2212140543 done date:2212140543 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:44:07 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='201' limit 1
+2022-12-14 5:44:07 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='201' limit 1
+2022-12-14 5:44:07 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233222222222], Sms Not Delivered
+2022-12-14 5:46:42 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 201
+    [type] => 2
+    [receiver] => 233333322221
+    [reply] => id:0382694600 sub:000 dlvrd:000 submit date:2212140543 done date:2212140546 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:46:41
+    [usr] => txtgh_url
+    [message] => id:0382694600 sub:000 dlvrd:000 submit date:2212140543 done date:2212140546 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:46:42 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233333322221' and campaign_id='201' limit 1
+2022-12-14 5:46:42 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233333322221' and campaign_id='201' limit 1
+2022-12-14 5:46:42 - INFO --> User Id [11], Campaign Id [201], Type [2], Msisdn [233333322221], Sms Not Delivered
+2022-12-14 5:49:30 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 202
+    [type] => 8
+    [receiver] => 233222222222
+    [reply] => ACK/
+    [time] => 2022-12-14 05:49:30
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:49:31 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 202
+    [type] => 4
+    [receiver] => 233222222222
+    [reply] => id:0382714834 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:49:30
+    [usr] => txtgh_url
+    [message] => id:0382714834 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:49:31 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 202
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-12-14 05:49:31
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 5:49:31 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 202
+    [type] => 4
+    [receiver] => 233111111111
+    [reply] => id:0382714840 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 05:49:31
+    [usr] => txtgh_url
+    [message] => id:0382714840 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 5:49:32 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 202
+    [type] => 2
+    [receiver] => 233222222222
+    [reply] => id:0382714834 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:49:32
+    [usr] => txtgh_url
+    [message] => id:0382714834 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:49:32 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='202' limit 1
+2022-12-14 5:49:32 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='202' limit 1
+2022-12-14 5:49:32 - INFO --> User Id [54], Campaign Id [202], Type [2], Msisdn [233222222222], Sms Not Delivered
+2022-12-14 5:49:33 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 202
+    [type] => 2
+    [receiver] => 233111111111
+    [reply] => id:0382714840 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 05:49:32
+    [usr] => txtgh_url
+    [message] => id:0382714840 sub:000 dlvrd:000 submit date:2212140549 done date:2212140549 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 5:49:33 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='202' limit 1
+2022-12-14 5:49:33 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='202' limit 1
+2022-12-14 5:49:33 - INFO --> User Id [54], Campaign Id [202], Type [2], Msisdn [233111111111], Sms Not Delivered
+2022-12-14 12:01:47 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 203
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-12-14 12:01:46
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 12:01:47 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 203
+    [type] => 8
+    [receiver] => 233222222222
+    [reply] => ACK/
+    [time] => 2022-12-14 12:01:46
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-14 12:01:47 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 203
+    [type] => 4
+    [receiver] => 233111111111
+    [reply] => id:0389980818 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 12:01:47
+    [usr] => txtgh_url
+    [message] => id:0389980818 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 12:01:47 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 203
+    [type] => 4
+    [receiver] => 233222222222
+    [reply] => id:0389980819 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-14 12:01:47
+    [usr] => txtgh_url
+    [message] => id:0389980819 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:ENROUTE err:603 Text:
+)
+
+2022-12-14 12:01:48 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 203
+    [type] => 2
+    [receiver] => 233111111111
+    [reply] => id:0389980818 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 12:01:48
+    [usr] => txtgh_url
+    [message] => id:0389980818 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 12:01:48 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='203' limit 1
+2022-12-14 12:01:48 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='203' limit 1
+2022-12-14 12:01:48 - INFO --> User Id [54], Campaign Id [203], Type [2], Msisdn [233111111111], Sms Not Delivered
+2022-12-14 12:01:49 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 203
+    [type] => 2
+    [receiver] => 233222222222
+    [reply] => id:0389980819 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-14 12:01:49
+    [usr] => txtgh_url
+    [message] => id:0389980819 sub:000 dlvrd:000 submit date:2212141201 done date:2212141201 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-14 12:01:49 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='203' limit 1
+2022-12-14 12:01:49 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='203' limit 1
+2022-12-14 12:01:49 - INFO --> User Id [54], Campaign Id [203], Type [2], Msisdn [233222222222], Sms Not Delivered

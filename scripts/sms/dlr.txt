@@ -1,0 +1,292 @@
+Array
+(
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:13:28
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:14:31
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:15:14
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:21:18
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:21:32
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:33:33
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:34:36
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:34:58
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:38:00
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 233111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:43:08
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/no SMSC
+    [time] => 2022-11-22 05:54:20
+    [usr] => txtgh_url
+    [message] => NACK/no SMSC
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-11-22 06:19:21
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 4
+    [receiver] => 233111111111
+    [reply] => id:1721218977 sub:000 dlvrd:000 submit date:2211220619 done date:2211220619 stat:ENROUTE err:603 Text:Hi
+    [time] => 2022-11-22 06:19:21
+    [usr] => txtgh_url
+    [message] => id:1721218977 sub:000 dlvrd:000 submit date:2211220619 done date:2211220619 stat:ENROUTE err:603 Text:Hi
+)
+
+Array
+(
+    [txtUser] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-11-22 06:21:05
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 574612234
+    [reply] => ACK/
+    [time] => 2022-11-22 07:34:09
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 4
+    [receiver] => 574612234
+    [reply] => id:1721305409 sub:000 dlvrd:000 submit date:2211220734 done date:2211220734 stat:ENROUTE err:603 Text:
+    [time] => 2022-11-22 07:34:09
+    [usr] => txtgh_url
+    [message] => id:1721305409 sub:000 dlvrd:000 submit date:2211220734 done date:2211220734 stat:ENROUTE err:603 Text:
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 233574612234
+    [reply] => ACK/
+    [time] => 2022-11-22 07:37:40
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 919650491686
+    [reply] => ACK/
+    [time] => 2022-11-22 07:56:01
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 4
+    [receiver] => 919650491686
+    [reply] => id:1721335707 sub:000 dlvrd:000 submit date:2211220756 done date:2211220756 stat:ENROUTE err:603 Text:
+    [time] => 2022-11-22 07:56:01
+    [usr] => txtgh_url
+    [message] => id:1721335707 sub:000 dlvrd:000 submit date:2211220756 done date:2211220756 stat:ENROUTE err:603 Text:
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 919650491686
+    [reply] => ACK/
+    [time] => 2022-11-22 08:12:22
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 2
+    [receiver] => 919650491686
+    [reply] => id:1721362623 sub:000 dlvrd:000 submit date:2211220812 done date:2211220812 stat:UNDELIV err:5100 Text:
+    [time] => 2022-11-22 08:12:24
+    [usr] => txtgh_url
+    [message] => id:1721362623 sub:000 dlvrd:000 submit date:2211220812 done date:2211220812 stat:UNDELIV err:5100 Text:
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 8
+    [receiver] => 233574612234
+    [reply] => ACK/
+    [time] => 2022-11-22 08:13:00
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 4
+    [receiver] => 233574612234
+    [reply] => id:0900414684 sub:000 dlvrd:000 submit date:2211220813 done date:2211220813 stat:ENROUTE err:603 Text:
+    [time] => 2022-11-22 08:13:00
+    [usr] => txtgh_url
+    [message] => id:0900414684 sub:000 dlvrd:000 submit date:2211220813 done date:2211220813 stat:ENROUTE err:603 Text:
+)
+
+Array
+(
+    [campaign_owner] => 11
+    [campaignID] => 121
+    [type] => 1
+    [receiver] => 233574612234
+    [reply] => id:0900414684 sub:000 dlvrd:000 submit date:2211220813 done date:2211220813 stat:DELIVRD err:000 Text:
+    [time] => 2022-11-22 08:13:04
+    [usr] => txtgh_url
+    [message] => id:0900414684 sub:000 dlvrd:000 submit date:2211220813 done date:2211220813 stat:DELIVRD err:000 Text:
+)
+

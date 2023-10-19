@@ -1,0 +1,16 @@
+2022-12-17 6:44:59 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [quickSMSId] => 64
+    [messageId] => 202212161247111164167119483167610176
+    [type] => 34
+    [receiver] => 233578965213
+    [reply] => id:1205545878 sub:000 dlvrd:000 submit date:2212161247 done date:2212170644 stat:EXPIRED err:21b Text:
+    [time] => 2022-12-17 06:44:59
+    [usr] => txtgh_url
+    [message] => id:1205545878 sub:000 dlvrd:000 submit date:2212161247 done date:2212170644 stat:EXPIRED err:21b Text:
+)
+
+2022-12-17 6:44:59 - INFO --> UPDATE quicks_report set  status='5',updated_at=now() where  msisdn='233578965213' and quick_message_id='64' limit 1
+2022-12-17 6:44:59 - INFO --> UPDATE messages_report set  status='5',updated_at=now() where  msisdn='233578965213' and message_id='202212161247111164167119483167610176' limit 1
+2022-12-17 6:44:59 - INFO --> User Id [11], Quick SMS Id [64], Type [34], Msisdn [233578965213], SMS Expired

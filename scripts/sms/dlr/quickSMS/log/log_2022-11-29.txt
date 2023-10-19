@@ -1,0 +1,13 @@
+2022-11-29 12:20:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 99
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/
+    [message] => NACK/
+)
+
+2022-11-29 12:20:32 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='111111111' and campaign_id='99' limit 1
+2022-11-29 12:20:32 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='111111111' and campaign_id='99' limit 1
+2022-11-29 12:20:32 - INFO --> User Id [11], Campaign Id [99], Type [16], Msisdn [111111111], SMSC issue failed to send sms

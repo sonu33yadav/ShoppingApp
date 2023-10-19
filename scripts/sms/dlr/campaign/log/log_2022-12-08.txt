@@ -1,0 +1,90 @@
+2022-12-08 0:00:49 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 158
+    [type] => 34
+    [receiver] => 233555555555
+    [reply] => id:0622427866 sub:000 dlvrd:000 submit date:2212070603 done date:2212080000 stat:EXPIRED err:21b Text:
+    [time] => 2022-12-08 00:00:49
+    [usr] => txtgh_url
+    [message] => id:0622427866 sub:000 dlvrd:000 submit date:2212070603 done date:2212080000 stat:EXPIRED err:21b Text:
+)
+
+2022-12-08 0:00:49 - INFO --> UPDATE campaign_report set  status='5',updated_at=now() where  msisdn='233555555555' and campaign_id='158' limit 1
+2022-12-08 0:00:49 - INFO --> UPDATE messages_report set  status='5',updated_at=now() where  msisdn='233555555555' and campaign_id='158' limit 1
+2022-12-08 0:00:49 - INFO --> User Id [54], Campaign Id [158], Type [34], Msisdn [233555555555], SMS Expired
+2022-12-08 0:27:07 - INFO --> [REQ], Array
+(
+    [userId] => 54
+    [campaignId] => 161
+    [type] => 34
+    [receiver] => 233555555555
+    [reply] => id:0909978372 sub:000 dlvrd:000 submit date:2212070629 done date:2212080027 stat:EXPIRED err:21b Text:
+    [time] => 2022-12-08 00:27:06
+    [usr] => txtgh_url
+    [message] => id:0909978372 sub:000 dlvrd:000 submit date:2212070629 done date:2212080027 stat:EXPIRED err:21b Text:
+)
+
+2022-12-08 0:27:07 - INFO --> UPDATE campaign_report set  status='5',updated_at=now() where  msisdn='233555555555' and campaign_id='161' limit 1
+2022-12-08 0:27:07 - INFO --> UPDATE messages_report set  status='5',updated_at=now() where  msisdn='233555555555' and campaign_id='161' limit 1
+2022-12-08 0:27:07 - INFO --> User Id [54], Campaign Id [161], Type [34], Msisdn [233555555555], SMS Expired
+2022-12-08 12:39:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 168
+    [type] => 16
+    [receiver] => 233434342420
+    [reply] => NACK/MALFORMED SMS
+    [time] => 2022-12-08 12:39:52
+    [usr] => txtgh_url
+    [message] => NACK/MALFORMED SMS
+)
+
+2022-12-08 12:39:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 168
+    [type] => 16
+    [receiver] => 233222222222
+    [reply] => NACK/MALFORMED SMS
+    [time] => 2022-12-08 12:39:52
+    [usr] => txtgh_url
+    [message] => NACK/MALFORMED SMS
+)
+
+2022-12-08 12:39:52 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='233434342420' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='233222222222' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 168
+    [type] => 16
+    [receiver] => 233222245678
+    [reply] => NACK/MALFORMED SMS
+    [time] => 2022-12-08 12:39:52
+    [usr] => txtgh_url
+    [message] => NACK/MALFORMED SMS
+)
+
+2022-12-08 12:39:52 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 168
+    [type] => 16
+    [receiver] => 233111111111
+    [reply] => NACK/MALFORMED SMS
+    [time] => 2022-12-08 12:39:52
+    [usr] => txtgh_url
+    [message] => NACK/MALFORMED SMS
+)
+
+2022-12-08 12:39:52 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='233111111111' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='233222245678' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='233434342420' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='233222222222' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> User Id [11], Campaign Id [168], Type [16], Msisdn [233434342420], SMSC issue failed to send sms
+2022-12-08 12:39:52 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='233222245678' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> User Id [11], Campaign Id [168], Type [16], Msisdn [233222222222], SMSC issue failed to send sms
+2022-12-08 12:39:52 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='233111111111' and campaign_id='168' limit 1
+2022-12-08 12:39:52 - INFO --> User Id [11], Campaign Id [168], Type [16], Msisdn [233222245678], SMSC issue failed to send sms
+2022-12-08 12:39:52 - INFO --> User Id [11], Campaign Id [168], Type [16], Msisdn [233111111111], SMSC issue failed to send sms

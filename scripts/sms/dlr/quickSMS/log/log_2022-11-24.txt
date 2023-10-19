@@ -1,0 +1,344 @@
+2022-11-24 7:02:30 - INFO --> [REQ], Array
+(
+)
+
+2022-11-24 10:21:09 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 105
+    [type] => 8
+    [receiver] => 111111111
+    [reply] => ACK/
+    [time] => 2022-11-24 10:21:09
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-11-24 10:21:09 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 105
+    [type] => 8
+    [receiver] => 222222222
+    [reply] => ACK/
+    [time] => 2022-11-24 10:21:09
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-11-24 10:21:10 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 105
+    [type] => 4
+    [receiver] => 111111111
+    [reply] => id:0917339701 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:ENROUTE err:603 Text:
+    [time] => 2022-11-24 10:21:09
+    [usr] => txtgh_url
+    [message] => id:0917339701 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:ENROUTE err:603 Text:
+)
+
+2022-11-24 10:21:10 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 105
+    [type] => 4
+    [receiver] => 222222222
+    [reply] => id:1441937194 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:ENROUTE err:603 Text:
+    [time] => 2022-11-24 10:21:10
+    [usr] => txtgh_url
+    [message] => id:1441937194 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:ENROUTE err:603 Text:
+)
+
+2022-11-24 10:21:11 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 105
+    [type] => 2
+    [receiver] => 111111111
+    [reply] => id:0917339701 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:UNDELIV err:1304 Text:
+    [time] => 2022-11-24 10:21:10
+    [usr] => txtgh_url
+    [message] => id:0917339701 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:UNDELIV err:1304 Text:
+)
+
+2022-11-24 10:21:11 - INFO --> User Id [11], Campaign Id [105], Type [2], Msisdn [111111111], Sms Not Delivered
+2022-11-24 10:21:11 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 105
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1441937194 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:UNDELIV err:201 Text:
+    [time] => 2022-11-24 10:21:11
+    [usr] => txtgh_url
+    [message] => id:1441937194 sub:000 dlvrd:000 submit date:2211241021 done date:2211241021 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 10:21:11 - INFO --> User Id [11], Campaign Id [105], Type [2], Msisdn [222222222], Sms Not Delivered
+2022-11-24 13:04:39 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 16
+    [receiver] => 111111111
+    [reply] => NACK/0x0000000a/Invalid Source Address
+    [message] => NACK/0x0000000a/Invalid Source Address
+)
+
+2022-11-24 13:04:39 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 16
+    [receiver] => 222222222
+    [reply] => NACK/0x0000000a/Invalid Source Address
+    [message] => NACK/0x0000000a/Invalid Source Address
+)
+
+2022-11-24 13:06:31 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 8
+    [receiver] => 111111111
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-11-24 13:06:31 - INFO --> insert into messages_report (user_id, campaign_id, sender_id, content, msisdn, message_id) values('11', '', 'ACK/', '111111111', '6518519700101000000')
+2022-11-24 13:06:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 4
+    [receiver] => 111111111
+    [reply] => id:1729079602 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:ENROUTE err:603 Text:
+    [message] => id:1729079602 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:ENROUTE err:603 Text:
+)
+
+2022-11-24 13:06:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 8
+    [receiver] => 222222222
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-11-24 13:06:32 - INFO --> insert into messages_report (user_id, campaign_id, sender_id, content, msisdn, message_id) values('11', '', 'ACK/', '222222222', '2614519700101000000')
+2022-11-24 13:06:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 4
+    [receiver] => 222222222
+    [reply] => id:0918869422 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:ENROUTE err:603 Text:
+    [message] => id:0918869422 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:ENROUTE err:603 Text:
+)
+
+2022-11-24 13:06:33 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 2
+    [receiver] => 111111111
+    [reply] => id:1729079602 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:UNDELIV err:1304 Text:
+    [message] => id:1729079602 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:UNDELIV err:1304 Text:
+)
+
+2022-11-24 13:06:33 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:0918869422 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:UNDELIV err:201 Text:
+    [message] => id:0918869422 sub:000 dlvrd:000 submit date:2211241306 done date:2211241306 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:07:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 8
+    [receiver] => 111111111
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-11-24 13:07:32 - INFO --> insert into messages_report (user_id, campaign_id, sender_id, content, msisdn, message_id) values('11', '', 'ACK/', '111111111', '5626019700101000000')
+2022-11-24 13:07:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 4
+    [receiver] => 111111111
+    [reply] => id:1729083024 sub:000 dlvrd:000 submit date:2211241307 done date:2211241307 stat:ENROUTE err:603 Text:
+    [message] => id:1729083024 sub:000 dlvrd:000 submit date:2211241307 done date:2211241307 stat:ENROUTE err:603 Text:
+)
+
+2022-11-24 13:07:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 8
+    [receiver] => 222222222
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-11-24 13:07:32 - INFO --> insert into messages_report (user_id, campaign_id, sender_id, content, msisdn, message_id) values('11', '', 'ACK/', '222222222', '1515619700101000000')
+2022-11-24 13:07:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 2
+    [receiver] => 111111111
+    [reply] => id:1729083024 sub:000 dlvrd:000 submit date:2211241307 done date:2211241307 stat:UNDELIV err:1304 Text:
+    [message] => id:1729083024 sub:000 dlvrd:000 submit date:2211241307 done date:2211241307 stat:UNDELIV err:1304 Text:
+)
+
+2022-11-24 13:07:33 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [messageId] => message_id
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729083036 sub:000 dlvrd:000 submit date:2211241307 done date:2211241307 stat:UNDELIV err:201 Text:
+    [message] => id:1729083036 sub:000 dlvrd:000 submit date:2211241307 done date:2211241307 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:15:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 8
+    [receiver] => 111111111
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-11-24 13:15:32 - INFO --> insert into messages_report (user_id, campaign_id, sender_id, content, msisdn, message_id) values('11', '110', 'ACK/', '111111111', '3116619700101000000')
+2022-11-24 13:15:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 4
+    [receiver] => 111111111
+    [reply] => id:1729107957 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:ENROUTE err:603 Text:
+    [message] => id:1729107957 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:ENROUTE err:603 Text:
+)
+
+2022-11-24 13:15:32 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 8
+    [receiver] => 222222222
+    [reply] => ACK/
+    [message] => ACK/
+)
+
+2022-11-24 13:15:32 - INFO --> insert into messages_report (user_id, campaign_id, sender_id, content, msisdn, message_id) values('11', '110', 'ACK/', '222222222', '8453419700101000000')
+2022-11-24 13:15:33 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 111111111
+    [reply] => id:1729107957 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:1304 Text:
+    [message] => id:1729107957 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:1304 Text:
+)
+
+2022-11-24 13:15:33 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:19:35 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:24:07 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:29:56 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:29:56 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='222222222' and campaign_id='' limit 1
+2022-11-24 13:29:56 - INFO --> User Id [11], Campaign Id [110], Type [2], Msisdn [222222222], Sms Not Delivered
+2022-11-24 13:32:12 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:32:12 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='222222222' and campaign_id='' limit 1
+2022-11-24 13:32:12 - INFO --> User Id [11], Campaign Id [110], Type [2], Msisdn [222222222], Sms Not Delivered
+2022-11-24 13:32:48 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:32:48 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='222222222' and campaign_id='110' limit 1
+2022-11-24 13:32:48 - INFO --> User Id [11], Campaign Id [110], Type [2], Msisdn [222222222], Sms Not Delivered
+2022-11-24 13:36:09 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:36:09 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='222222222' and campaign_id='110' limit 1
+2022-11-24 13:36:09 - INFO --> User Id [11], Campaign Id [110], Type [2], Msisdn [222222222], Sms Not Delivered
+2022-11-24 13:37:09 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 110
+    [type] => 2
+    [receiver] => 222222222
+    [reply] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+    [message] => id:1729107964 sub:000 dlvrd:000 submit date:2211241315 done date:2211241315 stat:UNDELIV err:201 Text:
+)
+
+2022-11-24 13:37:09 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='222222222' and campaign_id='110' limit 1
+2022-11-24 13:37:09 - INFO --> User Id [11], Campaign Id [110], Type [2], Msisdn [222222222], Sms Not Delivered

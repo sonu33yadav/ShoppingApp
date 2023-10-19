@@ -1,0 +1,4 @@
+2023-04-14 7:23:45 - INFO --> Type [EMAIL]
+2023-04-14 7:23:45 - INFO --> [Email Normal], [EMAIL] Campaign Id [66], Campaign Name [Test New Scheduled_2023-04-14_07:22:15], groupId [115], groupName [NEW CONTACT], [NORMAL CAMPAIGN], Command [nohup /usr/bin/php /var/www/html/PROJECTS/TxtGhana/Txtconnect/live/txtconnect/node-backend/scripts/scheduler/email_broadcast_normal.php '66'>/dev/null 2>&1 & echo $!;]
+2023-04-14 7:35:24 - INFO --> Type [EMAIL]
+2023-04-14 7:35:24 - INFO --> [Email Normal], [EMAIL] Campaign Id [67], Campaign Name [Hello_2023-04-14_07:35:04], groupId [115], groupName [NEW CONTACT], [NORMAL CAMPAIGN], Command [nohup /usr/bin/php /var/www/html/PROJECTS/TxtGhana/Txtconnect/live/txtconnect/node-backend/scripts/scheduler/email_broadcast_normal.php '67'>/dev/null 2>&1 & echo $!;]

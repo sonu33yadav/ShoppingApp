@@ -1,0 +1,256 @@
+2022-12-03 6:03:12 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 135
+    [type] => 16
+    [receiver] => 233111111111
+    [reply] => NACK/0x0000000a/Invalid Source Address
+    [time] => 2022-12-03 06:03:12
+    [usr] => txtgh_url
+    [message] => NACK/0x0000000a/Invalid Source Address
+)
+
+2022-12-03 6:03:12 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='233111111111' and campaign_id='135' limit 1
+2022-12-03 6:03:12 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 135
+    [type] => 16
+    [receiver] => 233222222222
+    [reply] => NACK/0x0000000a/Invalid Source Address
+    [time] => 2022-12-03 06:03:12
+    [usr] => txtgh_url
+    [message] => NACK/0x0000000a/Invalid Source Address
+)
+
+2022-12-03 6:03:12 - INFO --> UPDATE campaign_report set  status='4',updated_at=now() where  msisdn='233222222222' and campaign_id='135' limit 1
+2022-12-03 6:03:12 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='233111111111' and campaign_id='135' limit 1
+2022-12-03 6:03:12 - INFO --> UPDATE messages_report set  status='4',updated_at=now() where  msisdn='233222222222' and campaign_id='135' limit 1
+2022-12-03 6:03:12 - INFO --> User Id [11], Campaign Id [135], Type [16], Msisdn [233111111111], SMSC issue failed to send sms
+2022-12-03 6:03:12 - INFO --> User Id [11], Campaign Id [135], Type [16], Msisdn [233222222222], SMSC issue failed to send sms
+2022-12-03 11:41:02 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 140
+    [type] => 8
+    [receiver] => 233111111111
+    [reply] => ACK/
+    [time] => 2022-12-03 11:41:02
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-03 11:41:02 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 140
+    [type] => 8
+    [receiver] => 233222222222
+    [reply] => ACK/
+    [time] => 2022-12-03 11:41:02
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-03 11:41:03 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 140
+    [type] => 4
+    [receiver] => 233111111111
+    [reply] => id:0383989645 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-03 11:41:02
+    [usr] => txtgh_url
+    [message] => id:0383989645 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:ENROUTE err:603 Text:
+)
+
+2022-12-03 11:41:03 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 140
+    [type] => 4
+    [receiver] => 233222222222
+    [reply] => id:1690733560 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-03 11:41:02
+    [usr] => txtgh_url
+    [message] => id:1690733560 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:ENROUTE err:603 Text:
+)
+
+2022-12-03 11:41:04 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 140
+    [type] => 2
+    [receiver] => 233222222222
+    [reply] => id:1690733560 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-03 11:41:02
+    [usr] => txtgh_url
+    [message] => id:1690733560 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-03 11:41:04 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='140' limit 1
+2022-12-03 11:41:04 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233222222222' and campaign_id='140' limit 1
+2022-12-03 11:41:04 - INFO --> User Id [11], Campaign Id [140], Type [2], Msisdn [233222222222], Sms Not Delivered
+2022-12-03 11:41:04 - INFO --> [REQ], Array
+(
+    [userId] => 11
+    [campaignId] => 140
+    [type] => 2
+    [receiver] => 233111111111
+    [reply] => id:0383989645 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:UNDELIV err:1304 Text:
+    [time] => 2022-12-03 11:41:02
+    [usr] => txtgh_url
+    [message] => id:0383989645 sub:000 dlvrd:000 submit date:2212031141 done date:2212031141 stat:UNDELIV err:1304 Text:
+)
+
+2022-12-03 11:41:04 - INFO --> UPDATE campaign_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='140' limit 1
+2022-12-03 11:41:04 - INFO --> UPDATE messages_report set  status='3',updated_at=now() where  msisdn='233111111111' and campaign_id='140' limit 1
+2022-12-03 11:41:04 - INFO --> User Id [11], Campaign Id [140], Type [2], Msisdn [233111111111], Sms Not Delivered
+2022-12-03 13:10:38 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 149
+    [type] => 8
+    [receiver] => 233594885468
+    [reply] => ACK/
+    [time] => 2022-12-03 13:10:38
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-03 13:10:38 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 149
+    [type] => 8
+    [receiver] => 233266000059
+    [reply] => ACK/
+    [time] => 2022-12-03 13:10:38
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-03 13:10:39 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 149
+    [type] => 4
+    [receiver] => 233266000059
+    [reply] => id:1690898560 sub:000 dlvrd:000 submit date:2212031310 done date:2212031310 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-03 13:10:38
+    [usr] => txtgh_url
+    [message] => id:1690898560 sub:000 dlvrd:000 submit date:2212031310 done date:2212031310 stat:ENROUTE err:603 Text:
+)
+
+2022-12-03 13:10:40 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 149
+    [type] => 1
+    [receiver] => 233266000059
+    [reply] => id:1690898560 sub:000 dlvrd:000 submit date:2212031310 done date:2212031310 stat:DELIVRD err:000 Text:
+    [time] => 2022-12-03 13:10:40
+    [usr] => txtgh_url
+    [message] => id:1690898560 sub:000 dlvrd:000 submit date:2212031310 done date:2212031310 stat:DELIVRD err:000 Text:
+)
+
+2022-12-03 13:10:40 - INFO --> UPDATE campaign_report set  status='2',updated_at=now() where  msisdn='233266000059' and campaign_id='149' limit 1
+2022-12-03 13:10:40 - INFO --> UPDATE messages_report set  status='2',updated_at=now() where  msisdn='233266000059' and campaign_id='149' limit 1
+2022-12-03 13:10:40 - INFO --> UPDATE campaigns set  success=success+1 where  id='149' limit 1
+2022-12-03 13:10:40 - INFO --> User Id [22], Campaign Id [149], Type [1], Msisdn [233266000059], Sms Delivered
+2022-12-03 13:12:32 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 150
+    [type] => 8
+    [receiver] => 233594885468
+    [reply] => ACK/
+    [time] => 2022-12-03 13:12:32
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-03 13:12:32 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 150
+    [type] => 4
+    [receiver] => 233266000059
+    [reply] => id:0650825351 sub:000 dlvrd:000 submit date:2212031312 done date:2212031312 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-03 13:12:32
+    [usr] => txtgh_url
+    [message] => id:0650825351 sub:000 dlvrd:000 submit date:2212031312 done date:2212031312 stat:ENROUTE err:603 Text:
+)
+
+2022-12-03 13:12:32 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 150
+    [type] => 8
+    [receiver] => 233266000059
+    [reply] => ACK/
+    [time] => 2022-12-03 13:12:32
+    [usr] => txtgh_url
+    [message] => ACK/
+)
+
+2022-12-03 13:12:33 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 150
+    [type] => 4
+    [receiver] => 233594885468
+    [reply] => id:1690901165 sub:000 dlvrd:000 submit date:2212031312 done date:2212031312 stat:ENROUTE err:603 Text:
+    [time] => 2022-12-03 13:12:32
+    [usr] => txtgh_url
+    [message] => id:1690901165 sub:000 dlvrd:000 submit date:2212031312 done date:2212031312 stat:ENROUTE err:603 Text:
+)
+
+2022-12-03 13:12:34 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 150
+    [type] => 1
+    [receiver] => 233266000059
+    [reply] => id:0650825351 sub:000 dlvrd:000 submit date:2212031312 done date:2212031312 stat:DELIVRD err:000 Text:
+    [time] => 2022-12-03 13:12:34
+    [usr] => txtgh_url
+    [message] => id:0650825351 sub:000 dlvrd:000 submit date:2212031312 done date:2212031312 stat:DELIVRD err:000 Text:
+)
+
+2022-12-03 13:12:34 - INFO --> UPDATE campaign_report set  status='2',updated_at=now() where  msisdn='233266000059' and campaign_id='150' limit 1
+2022-12-03 13:12:34 - INFO --> UPDATE messages_report set  status='2',updated_at=now() where  msisdn='233266000059' and campaign_id='150' limit 1
+2022-12-03 13:12:34 - INFO --> UPDATE campaigns set  success=success+1 where  id='150' limit 1
+2022-12-03 13:12:34 - INFO --> User Id [22], Campaign Id [150], Type [1], Msisdn [233266000059], Sms Delivered
+2022-12-03 13:48:34 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 149
+    [type] => 1
+    [receiver] => 233594885468
+    [reply] => id:1189583404 sub:000 dlvrd:000 submit date:2212031310 done date:2212031348 stat:DELIVRD err:000 Text:
+    [time] => 2022-12-03 13:48:34
+    [usr] => txtgh_url
+    [message] => id:1189583404 sub:000 dlvrd:000 submit date:2212031310 done date:2212031348 stat:DELIVRD err:000 Text:
+)
+
+2022-12-03 13:48:34 - INFO --> UPDATE campaign_report set  status='2',updated_at=now() where  msisdn='233594885468' and campaign_id='149' limit 1
+2022-12-03 13:48:34 - INFO --> UPDATE messages_report set  status='2',updated_at=now() where  msisdn='233594885468' and campaign_id='149' limit 1
+2022-12-03 13:48:34 - INFO --> UPDATE campaigns set  success=success+1 where  id='149' limit 1
+2022-12-03 13:48:34 - INFO --> User Id [22], Campaign Id [149], Type [1], Msisdn [233594885468], Sms Delivered
+2022-12-03 13:48:35 - INFO --> [REQ], Array
+(
+    [userId] => 22
+    [campaignId] => 150
+    [type] => 1
+    [receiver] => 233594885468
+    [reply] => id:1690901165 sub:000 dlvrd:000 submit date:2212031312 done date:2212031348 stat:DELIVRD err:000 Text:
+    [time] => 2022-12-03 13:48:34
+    [usr] => txtgh_url
+    [message] => id:1690901165 sub:000 dlvrd:000 submit date:2212031312 done date:2212031348 stat:DELIVRD err:000 Text:
+)
+
+2022-12-03 13:48:35 - INFO --> UPDATE campaign_report set  status='2',updated_at=now() where  msisdn='233594885468' and campaign_id='150' limit 1
+2022-12-03 13:48:35 - INFO --> UPDATE messages_report set  status='2',updated_at=now() where  msisdn='233594885468' and campaign_id='150' limit 1
+2022-12-03 13:48:35 - INFO --> UPDATE campaigns set  success=success+1 where  id='150' limit 1
+2022-12-03 13:48:35 - INFO --> User Id [22], Campaign Id [150], Type [1], Msisdn [233594885468], Sms Delivered
